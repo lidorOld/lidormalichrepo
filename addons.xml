@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.daka.tora" name="דקה תורה" version="1.0.7" provider-name="Lidor Malich">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.featherence.service" version="1.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+	<platform>all</platform>
+    <summary lang="he">רגע של תורה</summary>
+	<description lang="he">מאפיינים:
+-תוכן יהודי עשיר לכל דורש
+- מצב טלוויזיה חכם: ניגון אוטומטי של התכנים בכפתור הנבחר, עד 40 פריטים  שונים בפלייליסט אחד, אפשרות לאקראי.
+- ניגון אקראי: ניגון אוטומטי של כל הכפתורים בחלון הנוכחי באקראי וברצף.
+- תפריטים אישיים: אפשרות ליצור פאנארט אישי לכל כפתור.
+	</description>
+  </extension>
+</addon>
+
+<addon id="plugin.video.KodiGuide" name="[COLOR blue]Kodi[/COLOR]-[COLOR white]מדריכים[/COLOR]" version="2.1.1" provider-name="Lidor Malich">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <language>he</language>
+    <summary lang="he">הרחבה לצפייה , בתוכניות נוסטלגיה</summary>
+    <description lang="he">להרחבה יש מספר קטגוריות החל מתוכניות עבר, נוסטלגיה-ילדים,נוסטלגיה-כללי,תוכניות משודרות, לומדים מהבית,מוזיקה,וקטגוריה מיוחדת של ספיישלים.
+
+בכל קטגוריה תמצאו את הנושא שאליו מיועדות התוכניות, השתדלתי והתאמצתי מאוד כדי לספק לכם חוויה נוסטלגית עוצרת נשימה , כל התוכניות בפרקים מלאים , עונות מלאות,</description>
+    <disclaimer lang="en">ToMeR For Addons Premium</disclaimer>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.repo.lidormalich" name="lidormalich Repo" version="1.0.0" provider-name="MultiDown">
+	<extension point="xbmc.addon.repository">
+		<info compressed="false">https://raw.githubusercontent.com/lidormalich/lidormalichrepo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/lidormalich/lidormalichrepo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/lidormalich/lidormalichrepo/master/</datadir>
+    </extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en"></summary>
+		<description lang="en"></description>
+		<platform>all</platform>
+	</extension>
+</addon>
+</addons>
