@@ -20,7 +20,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.KodiGuide" name="[COLOR blue]Kodi[/COLOR]-[COLOR white]מדריכים[/COLOR]" version="2.1.1" provider-name="Lidor Malich">
+<addon id="plugin.video.KodiGuide" name="[COLOR blue]Kodi[/COLOR]-[COLOR white]מדריכים[/COLOR]-לא פעיל" version="2.1.1" provider-name="Lidor Malich">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="plugin.video.youtube"/>
@@ -39,7 +39,7 @@
   </extension>
 </addon>
 
-<addon id="repository.repo.lidormalich" name="lidormalich Repo" version="1.0.0" provider-name="MultiDown">
+<addon id="repository.repo.lidormalich" name="lidormalich Repo" version="1.0.0" provider-name="Lidor Malich">
 	<extension point="xbmc.addon.repository">
 		<info compressed="false">https://raw.githubusercontent.com/lidormalich/lidormalichrepo/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/lidormalich/lidormalichrepo/master/addons.xml.md5</checksum>
